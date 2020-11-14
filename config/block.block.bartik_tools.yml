@@ -1,5 +1,5 @@
 uuid: 54f8e807-0525-4079-ba55-22f351d46b71
-langcode: en
+langcode: hu
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Tools
+  label: Eszközök
   provider: system
   label_display: visible
   level: 1

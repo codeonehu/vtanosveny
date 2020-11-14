@@ -1,5 +1,5 @@
 uuid: 538c1a2b-8ed4-4a3f-b15c-2125960de6e0
-langcode: en
+langcode: hu
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: 'Primary admin actions'
+  label: 'Elsődleges adminisztrátori műveletek'
   provider: core
   label_display: '0'
 visibility: {  }

@@ -34,3 +34,4 @@ hidden:
   field_foto: true
   field_kerdes: true
   field_utvonal_hivatkozas: true
+  langcode: true

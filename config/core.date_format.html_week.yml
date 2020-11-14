@@ -1,10 +1,10 @@
 uuid: c8759a84-6800-49a8-a820-8dba044f5f01
-langcode: en
+langcode: hu
 status: true
 dependencies: {  }
 _core:
   default_config_hash: wKD4WsoV_wFgv2vgI4mcAAFSIzrye17ykzdwrnApkfY
 id: html_week
-label: 'HTML Week'
+label: 'HTML hét'
 locked: true
 pattern: Y-\WW

@@ -1,10 +1,10 @@
 uuid: d66e8c42-d1b6-44f1-97df-a266107431b2
-langcode: en
+langcode: hu
 status: true
 dependencies: {  }
 _core:
   default_config_hash: zglzjmYxi0G0ag9MZ02y0LSJOdpWRwJxyP_OvFojFyo
 id: basic
-label: 'Basic block'
+label: 'Egyszerű blokk'
 revision: 0
-description: 'A basic block contains a title and a body.'
+description: 'Egy egyszerű, címet és törzset tartalmazó blokk.'

@@ -1,5 +1,5 @@
 uuid: 4e73203a-99a4-4187-9323-1079bd98c51c
-langcode: en
+langcode: hu
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: Tabs
+  label: Fülek
   provider: core
   label_display: '0'
   primary: true

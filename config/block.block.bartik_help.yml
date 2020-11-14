@@ -1,5 +1,5 @@
 uuid: a0b3d214-ddb1-4fbe-86a7-db5558ad70ad
-langcode: en
+langcode: hu
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: help_block
 settings:
   id: help_block
-  label: Help
+  label: Súgó
   provider: help
   label_display: '0'
 visibility: {  }

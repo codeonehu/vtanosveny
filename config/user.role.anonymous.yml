@@ -1,11 +1,11 @@
 uuid: 70c7fa9a-d457-46bc-a045-755dca5eae89
-langcode: en
+langcode: hu
 status: true
 dependencies: {  }
 _core:
   default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
 id: anonymous
-label: 'Anonymous user'
+label: 'Névtelen felhasználó'
 weight: 0
 is_admin: false
 permissions:

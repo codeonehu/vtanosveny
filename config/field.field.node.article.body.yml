@@ -1,5 +1,5 @@
 uuid: 3211f8c8-a7ec-403d-bfd0-d2750fef27b8
-langcode: en
+langcode: hu
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: node.article.body
 field_name: body
 entity_type: node
 bundle: article
-label: Body
+label: Törzs
 description: ''
 required: false
 translatable: true

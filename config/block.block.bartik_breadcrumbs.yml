@@ -1,5 +1,5 @@
 uuid: d0b4a27a-58d8-4863-b477-39093235898e
-langcode: en
+langcode: hu
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: Breadcrumbs
+  label: Morzsák
   provider: system
   label_display: '0'
 visibility: {  }

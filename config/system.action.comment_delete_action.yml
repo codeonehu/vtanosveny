@@ -1,5 +1,5 @@
 uuid: 60fb0cc4-8573-48df-9a9f-b23f02aa3a76
-langcode: en
+langcode: hu
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: vpBH8OmL4sdesCdeZLsW8KOutB5gkbreWJbfjhfFKaQ
 id: comment_delete_action
-label: 'Delete comment'
+label: 'Hozzászólás törlése'
 type: comment
 plugin: 'entity:delete_action:comment'
 configuration: {  }

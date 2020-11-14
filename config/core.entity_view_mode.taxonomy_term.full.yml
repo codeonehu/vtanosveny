@@ -1,5 +1,5 @@
 uuid: cb07fd60-8045-4131-8e95-3d992bcd4847
-langcode: en
+langcode: hu
 status: true
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: '-PPKjsNQPvoIDjOuUAvlLocYD976MNjb9Zpgyz5_BWE'
 id: taxonomy_term.full
-label: 'Taxonomy term page'
+label: 'Taxonómiakifejezés oldal'
 targetEntityType: taxonomy_term
 cache: true

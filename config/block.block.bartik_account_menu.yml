@@ -1,5 +1,5 @@
 uuid: 25a02547-4d61-4629-a113-eb0c02c8e314
-langcode: en
+langcode: hu
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: 'User account menu'
+  label: 'Felhasználói fiók menüje'
   provider: system
   label_display: '0'
   level: 1

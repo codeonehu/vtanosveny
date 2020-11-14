@@ -1,10 +1,10 @@
 uuid: b2c0f338-cd8e-4ed0-ba64-9a811b425dfd
-langcode: en
+langcode: hu
 status: true
 dependencies: {  }
 _core:
   default_config_hash: oz6NyPDAB4HB6N9hgH2LwNVtCd-sXbMG1fbn5KsRIDI
-name: 'Restricted HTML'
+name: 'Korlátozott HTML'
 format: restricted_html
 weight: 1
 filters:

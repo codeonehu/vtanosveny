@@ -1,5 +1,5 @@
 uuid: 8e743b3c-b296-4e72-be2d-0ebb538fa800
-langcode: en
+langcode: hu
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: mQIF_foYjmnVSr9MpcD4CTaJE_FpO1AyDd_DskztGhM
 id: user.full
-label: 'User account'
+label: 'Felhasználói fiók'
 targetEntityType: user
 cache: true

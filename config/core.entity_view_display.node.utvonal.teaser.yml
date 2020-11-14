@@ -32,3 +32,4 @@ content:
 hidden:
   field_hossz: true
   field_utpont_hivatkozas: true
+  langcode: true
