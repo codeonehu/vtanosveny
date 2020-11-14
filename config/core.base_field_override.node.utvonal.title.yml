@@ -1,0 +1,18 @@
+uuid: bc774ed7-0198-4bfa-95da-19b10ef42707
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.utvonal
+id: node.utvonal.title
+field_name: title
+entity_type: node
+bundle: utvonal
+label: Megnevezés
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

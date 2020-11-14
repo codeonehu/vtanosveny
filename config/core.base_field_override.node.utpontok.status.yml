@@ -1,0 +1,22 @@
+uuid: 890fe8be-82fc-47e4-bbcb-2fd1a0749ece
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.utpontok
+id: node.utpontok.status
+field_name: status
+entity_type: node
+bundle: utpontok
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

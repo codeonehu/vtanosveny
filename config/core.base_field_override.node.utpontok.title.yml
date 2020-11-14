@@ -1,0 +1,18 @@
+uuid: eb0fb2fd-90ad-4351-aa01-7115a36f9272
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.utpontok
+id: node.utpontok.title
+field_name: title
+entity_type: node
+bundle: utpontok
+label: Megnevezés
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

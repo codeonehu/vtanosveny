@@ -1,0 +1,22 @@
+uuid: f119c2c4-5aef-4696-975f-d9b8ebd3ef7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.utvonal
+id: node.utvonal.promote
+field_name: promote
+entity_type: node
+bundle: utvonal
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

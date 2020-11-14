@@ -1,0 +1,22 @@
+uuid: 7a50f9d8-e13a-4636-963c-deec1cd6a655
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.utvonal
+id: node.utvonal.status
+field_name: status
+entity_type: node
+bundle: utvonal
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,19 @@
+uuid: 9193ec24-bcbe-49c0-941e-ab36ee584318
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kerdes
+    - node.type.utpontok
+id: node.utpontok.field_kerdes
+field_name: field_kerdes
+entity_type: node
+bundle: utpontok
+label: Kérdés
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

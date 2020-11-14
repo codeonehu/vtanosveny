@@ -1,0 +1,38 @@
+uuid: fd6cb819-e26a-4d94-b774-16f1de0041ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_foto
+    - node.type.utpontok
+  module:
+    - image
+id: node.utpontok.field_foto
+field_name: field_foto
+entity_type: node
+bundle: utpontok
+label: Fotó
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: 640x480
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

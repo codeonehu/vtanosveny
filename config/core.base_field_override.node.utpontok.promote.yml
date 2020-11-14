@@ -1,0 +1,22 @@
+uuid: 0c72a9a6-dad6-48cc-946e-77de2979d388
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.utpontok
+id: node.utpontok.promote
+field_name: promote
+entity_type: node
+bundle: utpontok
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
