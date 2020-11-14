@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.utpontok.body
     - field.field.node.utpontok.field_foto
     - field.field.node.utpontok.field_kerdes
+    - field.field.node.utpontok.field_utvonal_hivatkozas
     - node.type.utpontok
   module:
     - image
@@ -39,6 +40,14 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_utvonal_hivatkozas:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   links:
     weight: 100

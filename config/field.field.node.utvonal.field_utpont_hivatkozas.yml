@@ -1,0 +1,28 @@
+uuid: 47befd2a-9995-4ba7-9840-9bbc05dca145
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_utpont_hivatkozas
+    - node.type.utpontok
+    - node.type.utvonal
+id: node.utvonal.field_utpont_hivatkozas
+field_name: field_utpont_hivatkozas
+entity_type: node
+bundle: utvonal
+label: utpont_hivatkozas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      utpontok: utpontok
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

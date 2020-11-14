@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.utvonal.body
     - field.field.node.utvonal.field_hossz
+    - field.field.node.utvonal.field_utpont_hivatkozas
     - node.type.utvonal
   module:
     - text
@@ -30,3 +31,4 @@ content:
     region: content
 hidden:
   field_hossz: true
+  field_utpont_hivatkozas: true
