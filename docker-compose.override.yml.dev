@@ -1,0 +1,10 @@
+version: "2.4"
+services:
+  web:
+    ports:
+#      - "80:80"
+      - "8082:80"
+    environment:
+#     DRUSH_OPTIONS_URI: http://localhost/
+      DRUSH_OPTIONS_URI: http://100.105.250.32:8082/
+

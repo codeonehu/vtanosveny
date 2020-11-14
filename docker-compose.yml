@@ -1,0 +1,9 @@
+version: "2.4"
+services:
+  web:
+    image: tanarurkerem/drupal
+    volumes:
+      - .:/drupal
+  selenium:
+    image: selenium/standalone-chrome
+    shm_size: 2g
