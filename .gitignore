@@ -2,3 +2,4 @@ vendor
 files
 webs/sites/default/files
 docker-compose.override.yml
+_SQLDATA
