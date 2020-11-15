@@ -1,0 +1,7 @@
+filter_settings.vtanosveny_turistajelzesek:
+  type: filter
+  label: 'Turistajelzesek filter'
+  mapping:
+    example:
+      type: string
+      label: Example

@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - editor
+    - vtanosveny
 _core:
   default_config_hash: P8ddpAIKtawJDi5SzOwCzVnnNYqONewSTJ6Xn0dW_aQ
 name: 'Alap HTML'
@@ -43,3 +44,10 @@ filters:
     status: true
     weight: 11
     settings: {  }
+  vtanosveny_turistajelzesek:
+    id: vtanosveny_turistajelzesek
+    provider: vtanosveny
+    status: true
+    weight: -10
+    settings:
+      example: foo
